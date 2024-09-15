@@ -1,14 +1,14 @@
 //
-//  main.cpp
 //  CIS25 - assignment 9
 //
 //  Created by maya nachiappan on 9/15/24.
 //
+// program to check if an applicant is elegible for a job or not
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+int main ()
+{
+    int exp;
+    bool citizen, degree;
 }
