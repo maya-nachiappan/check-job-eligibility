@@ -30,11 +30,11 @@ int main ()
     
     if (eligible(citizen,degree,exp))
     {
-        cout << "you are eligible" << endl;
+        cout << "You are eligible for this job" << endl;
     }
         else
         {
-            cout <<"you are not eligible" << endl;
+            cout <<"You are not eligible for this job." << endl;
         }
         return 0;
     }
