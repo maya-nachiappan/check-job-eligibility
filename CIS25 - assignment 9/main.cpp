@@ -7,6 +7,16 @@
 
 #include <iostream>
 using namespace std;
+
+bool eligible( bool citizen, bool degree, int exp)
+{
+    // checks if all conditions are true
+    if ( degree && citizen && exp>= 2)
+        return true;
+    else
+        return false;
+}
+
 int main ()
 {
     int exp;
@@ -18,4 +28,14 @@ int main ()
     cout << "How many years of experience do you have?" << endl;
     cin >> exp;
     
-}
+    if (eligible(citizen,degree,exp))
+    {
+        cout << "you are eligible" << endl;
+    }
+        else
+        {
+            cout <<"you are not eligible" << endl;
+        }
+        return 0;
+    }
+
