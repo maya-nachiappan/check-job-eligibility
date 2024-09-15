@@ -11,4 +11,11 @@ int main ()
 {
     int exp;
     bool citizen, degree;
+    cout << "Are you a US citizen? Type 1 for yes and 0 for no." << endl;
+    cin >> citizen;
+    cout << "Do you have a bachelors degree? Type 1 for yes and 0 for no." << endl;
+    cin >> degree;
+    cout << "How many years of experience do you have?" << endl;
+    cin >> exp;
+    
 }
