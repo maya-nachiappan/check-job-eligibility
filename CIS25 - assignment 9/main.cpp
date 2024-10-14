@@ -8,9 +8,9 @@
 #include <iostream>
 using namespace std;
 
-bool eligible( bool citizen, bool degree, int exp)
+bool eligible( bool citizen, bool degree, int exp) // creates a bool function
 {
-    // checks if all conditions are true
+    // checks if all bool variables are true and experience is greater than 2
     if ( degree && citizen && exp>= 2)
         return true;
     else
@@ -28,11 +28,11 @@ int main ()
     cout << "How many years of experience do you have?" << endl;
     cin >> exp;
     
-    if (eligible(citizen,degree,exp))
+    if (eligible(citizen,degree,exp)) // if the eligible function returns a true value
     {
         cout << "You are eligible for this job" << endl;
     }
-        else
+        else // if the eligible function returns a false value
         {
             cout <<"You are not eligible for this job." << endl;
         }
