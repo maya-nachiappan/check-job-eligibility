@@ -1,1 +1,1 @@
-This is program to check if an applicant is eligible for a job based on their citizenship status, degree and years of experience. The program uses bool variables to check if each condition is true, inside an eligibility function.
+This is program that checks if an applicant is eligible for a job based on their citizenship status, degree and years of experience. The program uses bool variables to check if each condition is true, inside an eligibility function.
